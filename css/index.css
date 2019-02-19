@@ -1,0 +1,387 @@
+body,h1,h2,h3,h4,h5,h6,select,ul,ol,dd,input,p,td,img{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+img{
+	border:0;
+	}
+/*header*/
+header{
+	width:100%;
+}
+.top{
+	width:590px;
+	height: 29px;
+	line-height: 29px;
+	margin:0 auto;
+	background: #f2f2f2;
+	font-size: 12px;
+	color: #343434;
+	border-bottom: 1px solid #dcdcdc;
+	padding-left: 610px;
+}
+.login{
+	margin-right: 10px;
+	float:left;
+}
+.top a{
+	color: #5a5a5a;
+}
+.top b{
+	color: #d9d9d9;
+	margin:0 10px;
+}
+.info{
+	position: relative;
+	float:left;
+	padding-left: 8px;	
+}
+.arrowtop {
+    background: url(../img/section-tigger.png) -30px -37px no-repeat;
+    width: 11px;
+    height: 7px;
+    display: inline-block;
+    margin-left: 3px;
+}
+.infobtm{
+	position: absolute;
+	width:100%;
+	left:0;
+	background:#fff;
+	text-align:center;
+	color:#666;
+	z-index: 100;
+}
+.info .last{
+	position: absolute;
+	float: left;
+	left:-150px;
+	width: 185px;
+	text-align: left;
+	padding-left: 7px;
+}
+.info .infobtm{
+	display: none;
+
+}
+.info:hover{
+	background:#fff;
+	border:1px solid #dcdcdc;
+	color:#666;
+}
+.info:hover b{
+	opacity: 0;
+}
+.info:hover .infobtm{
+	display:block;
+}
+.info a:hover,.info .infobtm a:hover{
+	color:#d70057;
+}
+.info:hover .arrowtop{
+	 background: url(../img/section-tigger.png) -16px -27px no-repeat; 
+}
+/*center*/
+.center{
+	width:1200px;
+	height:110px;
+	margin:0 auto;
+ }
+.logo{
+	float:left;
+}
+.center_c{
+	float:left;
+	padding-top: 30px;
+	padding-left: 154px;
+}
+.center .select{
+	height:32px;
+	width:370px;
+	border:3px solid #d90154;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+.center .btn{
+	width:98px;
+	height:38px;
+	background: url(../img/common-thumb.png) no-repeat -30px -4px;
+	border:none;
+	margin-left: -7px;
+	vertical-align: middle;
+}
+/*.center .list{
+	line-height: 30px;
+}*/
+.center .list a{
+	display:inline-block;
+	padding-top: 8px;
+	font-size: 12px;
+	color: #878787;
+	line-height: 12px;
+	margin-right:10px;
+}
+.center_r{
+	float:right;
+	width:253px;
+	height:32px;
+	margin-top: 30px;
+	/*position: relative;*/
+}
+.center_r .img_car{
+	width:69px;
+	height:100%;
+	display:inline-block; 	
+	background:url(../img/common-thumb.png) no-repeat -236px -5px; 
+}
+.center_r .car{
+	display: inline-block;
+	height:27px;
+	width:175px;
+	border:2px solid #fcda6f;
+	line-height: 28px;
+	text-align: center;
+	font-size: 12px;
+	color: #434343;
+	position: relative;
+	top:-11px;
+	left:-5px;
+}
+.car b{
+	color: #d9039f;
+}
+nav{
+	height:40px;
+	background: #000;
+}
+.navlist{
+	width:1200px;
+	height:40px;
+	margin:0 auto;
+	position: relative;
+}
+.navlist a{
+	display: inline-block;
+	width:100px;
+	height:40px;
+}
+.navlist li{
+	float:left;
+	font-size: 14px;
+	color: #f6fff0;
+	width:100px;
+	line-height: 40px;
+	text-align: center;
+	transition: all 2s;
+	position: relative;
+	padding-left: 5px;
+}
+.navlist li:hover{
+	color:#d70057; 
+}
+.navlist li:hover i{
+	display: block;
+}
+/*.navlist li:hover .sportlist{
+	display: block;
+}*/
+.navlist a i{
+	height: 0;
+    width: 0;
+    border-bottom: 8px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    display: none;
+}
+.navlist .setTime{
+	width:114px;
+	height:46px;
+	background:url(../img/time.png) no-repeat;
+	position: absolute;
+	top:-6px;
+	left:100px; 
+}
+.navlist .global{
+	background: url(../img/global.gif) no-repeat 0 0;
+}
+.sportlist{
+	width:1100px;
+	height:378px;
+	padding:15px;
+	background: #fff;
+	box-shadow: 3px 3px 4px #c8c8c8;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	z-index: 100;
+}
+.sportlist .sportlist_left{
+    float: left;
+    width: 335px;
+    height: 100%;
+    border-right: 1px dashed #aeaeae;
+    padding-right: 50px;
+}
+.sportlist .sportlist_center{
+    float: left;
+    height: 100%;
+    width: 394px;
+    border-right: 1px dashed #aeaeae;
+    padding-left: 12px;
+    padding-right: 50px;
+}
+.sportlist .sportlist_right{
+    float: right;
+    height: 100%;
+    width: 243px;
+}
+.sportlist h3{
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    color: #d20d33;
+}
+.sportlist .last_h3{
+    padding-left: 15px;
+}
+.sportlist .context{
+	font-size: 12px;
+	color: #5e5e5e;
+    height: 40px;
+    line-height: 40px;
+}
+.sportlist li a{
+    margin-right: 16px;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #878787;
+}
+/*轮播图*/
+.focusBox { position: relative; width:100%; height:350px; overflow: hidden; }
+	.focusBox .pic{ position:relative; z-index:0; }
+	.focusBox .pic img { width:100%; height:350px; display: block; }
+	.focusBox .hd { width:100%; position: absolute; bottom: 10px; text-align: center; font-size:0; z-index:1; }
+	.focusBox .hd li{margin: 0 5px; background: url(../img/dot.png) no-repeat 0 -16px; height: 20px; overflow: hidden; width: 20px; cursor: pointer;
+		display:inline-block;
+	}
+	.focusBox .hd .on{ background-position:0 0; }
+
+	.focusBox .prev,.focusBox .next { width: 60px; height: 90px; margin: -60px 120px 120px; display: none; background: url(../img/ad_ctr.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; /*filter:alpha(opacity=20);opacity:0.2; */ }
+	.focusBox .prev { left: 0; }
+	.focusBox .next { background-position: 0 -90px; right: 0; }
+	.focusBox .prev:hover,.focusBox .next:hover { filter:alpha(opacity=50) !important;opacity:0.5 !important;  }
+.oldimg{
+	width:1200px;
+	margin:0 auto;
+}	
+.logo_list{
+	width:1200px;
+	margin:0 auto;
+	background: #fff;
+}
+.logo_list img{
+	margin:11px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.banner{
+	width:1200px;
+	margin:20px auto;
+
+}
+section{
+	width:1200px;
+	margin:0 auto;
+}
+.section_list{
+	width:593px;
+	height:208px;
+	float:left;
+	position: relative;
+	margin-bottom: 15px;
+	border: 1px solid transparent;
+    transition: all 1s;
+}
+section .section_list:nth-child(2n){
+	margin-left: 10px;
+}
+/*.section_list:hover{
+	box-shadow: 5px 5px 10px #ccc;
+}*/
+.section_list:hover{
+	border:1px solid #d90055;
+	z-index: 100;
+}
+.section_count{
+	width:200px;
+	height:130px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+}
+.section_count p{
+	font-size: 14px;
+}
+.active{
+	width:200px;
+	height:30px;
+	color: #d70057;
+	text-align: center;
+	line-height: 30px;
+	margin-top:25px;
+}
+.countdown{
+	display: block;
+	width:200px;
+	height:20px;
+	text-align: center;
+	color: #d70057;
+	margin-top: 5px;
+
+}
+.sectionl{
+	width:1200px;
+	margin:0 auto;
+	display: flex;
+}
+.sectionl_list{
+	width:388px;
+	height:328px;
+	position: relative;
+	margin-bottom: 15px;
+	border: 1px solid transparent;
+    transition: all 1s;
+}
+.sectionl_list:hover{
+	border:1px solid #d90055;
+	z-index: 100;
+}
+.count span{
+	font-weight: normal;
+	color: #2e2d29;
+}
+.actives{
+	margin-left: 10px;
+	color: #d70057; 
+}
+.count{
+	width: 388px;
+	height: 65px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
